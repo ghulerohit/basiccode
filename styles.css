@@ -1,0 +1,115 @@
+/* styles.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+/* Full-Height Main Content Section */
+.full-height {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 20px 0; /* Add some padding around the main content */
+}
+
+/* Image Container */
+.image-container {
+    padding: 15px; /* Adds space around the image */
+    height: calc(100% - 30px); /* Adjust height to account for padding */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-height img {
+    object-fit: cover; /* Cover the container without losing aspect ratio */
+    max-height: 100%;
+    width: auto; /* Maintain aspect ratio */
+}
+
+
+/* Ensure the text within the left column is white, in case the .text-white class isn't enough */
+.full-height .text-white {
+    color: #fff; /* White text */
+}
+
+/* styles.css */
+
+/* ... other styles ... */
+
+/* Multi-Line Footer */
+.multi-line-footer {
+    background-color: #0f0909de; /* Black background color for the footer */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.multi-line-footer p {
+    margin: 5px 0; /* Add some spacing between the paragraphs */
+}
+
+/* Custom Button Styling */
+.btn-lg.rounded-pill {
+    padding-left: 30px; /* Increase padding on the sides for a wider button */
+    padding-right: 30px;
+}
+
+.btn-lg.rounded-pill:hover {
+    transform: scale(1.05); /* Slightly enlarge buttons on hover */
+    transition: transform .3s ease-in-out; /* Smooth transition for the transform */
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container-fluid, .row.h-100 {
+    height: 100vh;
+  }
+  
+  .col-md-8 {
+    text-align: center;
+  }
+  
+  .align-items-center {
+    align-items: center;
+  }
+  
+  .my-4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .centered-right {
+    position: relative;
+    margin-left: auto;
+    margin-right: 10%; /* Adjust the percentage to control the space between the image and the right edge */
+  }
+  .main-content {
+    height: 100vh;
+    background-color: #000; /* Black background color */
+    color: #fff; /* White text color for better readability */
+    padding: 20px; /* Add padding for spacing inside the section */
+}
+.text-container {
+    margin-top: -90px; /* Adjust the value to move the text upward */
+}
+
+.btn-container {
+    margin-top: -70px; /* Adjust the value to move the buttons upward */
+}
+
+.img-container {
+    margin-top: -20px; /* Adjust the value to move the image upward */
+}
+
+  
+  
